@@ -14,12 +14,12 @@ export const homeConfig = {
   title: '520送礼抽奖',
   // 留言，数组的每一项代表一行
   messages: [
-    { key: 'a', wording: '这是第一行文案', },
-    { key: 's', wording: '这是第二行文案', },
-    { key: 'd', wording: '然后，这里是第三行文案', },
+    { key: 'a', wording: '不知道送什么', },
+    { key: 's', wording: '不知道要什么', },
+    { key: 'd', wording: '抽，抽，抽，解决你的烦恼', },
   ],
   // 最终解释权归属人
-  owner: 'XXX',
+  owner: 'yeyuelin',
   // 抽奖转盘的动画时间，单位毫秒
   timeout: 5000,
   // 指定赠送的礼物的索引（第几个礼物中奖），取值范围 0-8
