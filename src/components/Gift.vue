@@ -5,7 +5,7 @@
       <img :src="giftImageUrl" alt="" class="gift-image">
     </div>
     <h3>{{ giftName }}</h3>
-    <div v-if="isShowRestart" class="replay-button" @click="replay">重新体验</div>
+    <div class="replay-button" @click="replay">重新体验</div>
   </div>
 </template>
 
